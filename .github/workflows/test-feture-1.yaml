@@ -6,6 +6,10 @@ on:
 
   workflow_dispatch:
 
+  push:
+    branches:
+      - feature/1
+
 jobs:
   check-prs-and-notify:
     runs-on: ubuntu-latest
